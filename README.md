@@ -3,7 +3,7 @@
 This is a basic example for creating a React Native App View (μApp) that can be added and run in Gidjit ~ Smart Launcher, available in the [AppStore](https://itunes.apple.com/us/app/gidjit-smart-launcher/id1179176359?at=1001lnP4&mt=8)
  for free (currently iOS only)
  
- Supported operating systems are iOS 10.0
+ Supported operating system(s) are iOS 10.0
  
 ## Introduction
 
@@ -22,7 +22,7 @@ This is a basic example for creating a React Native App View (μApp) that can be
 
  - After creating your project generate a bundle in the root of the directory called "main.ios.jsbundle" (for example [from the root of the directory] run: react-native bundle --platform ios --dev false --entry-file views/ios/index.ios.js --bundle-output main.ios.jsbundle)
  - Optionally add an icon.png to the root of the directory preferably 120x120px
- - Upload your entire project to Github. Make sure you have an appropriate gitignore you can use the one from this example as a good start. 
+ - Upload your entire project to Github. Make sure you have an appropriate gitignore. You can use the one from this example as a good start. 
 
 * Add the micro app (μApp) to Gidjit 
  
