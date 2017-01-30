@@ -11,7 +11,7 @@ An App View (μApp) is like a micro or light weight application that will execut
 
 See the official [React Native website](https://facebook.github.io/react-native/) for an introduction to React Native.
 
-## Getting Started
+### Getting Started
 
 - Follow the [Getting Started guide](https://facebook.github.io/react-native/docs/getting-started.html) to install React Native and its dependencies.
 - Please use following version of react-native and react with npm.
@@ -32,6 +32,7 @@ See the official [React Native website](https://facebook.github.io/react-native/
 - You can use your own npm packages as they will be included in your ios.jsbundle from the react bundler. If a package has a library that needs to be linked you will have to let us know so that we can add it to Gidjit first.  
 - Currently the following data Will be passed to your initial element
 	* props -> sessionID (can be used to check it different actions are launching your view)
+	
 ### What Gidjit will require to run
 
 * Build/Config Project 
@@ -44,7 +45,7 @@ See the official [React Native website](https://facebook.github.io/react-native/
  
 		1. package.json
 		2. main.ios.jsbundle
-		3. assets (Directory for static images that at the moment is not supported, however it will be in a future update)
+		3. assets (optional, directory for static images that at the moment is not supported, however it will be in a future update)
 		4. icon.png (optional)
 
 
