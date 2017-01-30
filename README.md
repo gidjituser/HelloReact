@@ -3,7 +3,7 @@
 This is a basic example for creating a React Native App View (μApp) that can be added and run in Gidjit ~ Smart Launcher, available in the [AppStore](https://itunes.apple.com/us/app/gidjit-smart-launcher/id1179176359?at=1001lnP4&mt=8)
  for free (currently iOS only)
  
-Supported operating system(s) currently are iOS 10.0
+Supported operating system(s) are iOS 10.0+
  
 ## Introduction
 
