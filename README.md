@@ -14,15 +14,30 @@ See the official [React Native website](https://facebook.github.io/react-native/
 ## Getting Started
 
 - Follow the [Getting Started guide](https://facebook.github.io/react-native/docs/getting-started.html) to install React Native and its dependencies.
+- Please use following version of react-native and react with npm.
+	* "react": "15.4.2",
+    * "react-native": "0.39.2",
 - The following packages are included in the Gidjit and have been linked already
 	* "react-native-ble": "^1.0.7"
+    * "react-native-vector-icons": "^2.1.0",
+- The following fonts have been included for you
+	* Entypo.ttf
+	* EvilIcons.ttf
+	* FontAwesome.ttf
+	* Foundation.ttf
+	* Ionicons.ttf
+	* MaterialIcons.ttf
+	* Octicons.ttf
+	* Zocial.ttf
 - You can use your own npm packages as they will be included in your ios.jsbundle from the react bundler. If a package has a library that needs to be linked you will have to let us know so that we can add it to Gidjit first.  
-
+- Currently the following data Will be passed to your initial element
+	* props -> sessionID (can be used to check it different actions are launching your view)
 ### What Gidjit will require to run
 
 * Build/Config Project 
 
-	- After creating your project generate a bundle in the root of the directory called "main.ios.jsbundle" (for example [from the root of the directory] run: react-native bundle --platform ios --dev false --entry-file views/ios/index.ios.js --bundle-output main.ios.jsbundle --assets-dest ./)
+	- create your project and make sure to run npm install before next step as packages are bundled
+	- generate a bundle in the root of the directory called "main.ios.jsbundle" (for example [from the root of the directory] run: react-native bundle --platform ios --dev false --entry-file views/ios/index.ios.js --bundle-output main.ios.jsbundle --assets-dest ./)
 	- Optionally add an icon.png to the root of the directory preferably 120x120px
 	- Upload your entire project to Github. Make sure you have an appropriate gitignore. You can use the one from this example as a good start. 
 	- To summarize ensure you have to following in the root of your project directory 
