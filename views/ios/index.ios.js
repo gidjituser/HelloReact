@@ -31,9 +31,8 @@ class GidjitBasicExample extends Component {
           </Text>
         </Text>
         <Text style={{width: 250}}>
-          This example just uses components 'View' and 'Text', however most if not all React Native elements can
-          be used. You can find an example where an existing project was forked and bundled so
-          that it would work with Gidjit. It was not written by ourselves.
+          You can find an example where an existing project was forked and bundled so
+          that it would work with Gidjit to show the simplicity (It was not written by ourselves).
         </Text>
         <Text style={[styles.bigblue, styles.seperateInfo]}
           onPress={() => Linking.openURL('https://github.com/gidjituser/FinanceReactNative')}>
