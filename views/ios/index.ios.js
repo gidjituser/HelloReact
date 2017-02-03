@@ -24,7 +24,7 @@ class GidjitBasicExample extends Component {
         </Text>
         <Text style={{width: 250}}>
           This example just uses components 'View' and 'Text', however most if not all React Native elements can
-          be used. You can find the source along with all the instructions to create and add your own React Native action 
+          be used. You can find the source along with all the instructions to create and add your own React Native action
           <Text style={styles.bigblue}
             onPress={() => Linking.openURL('https://github.com/gidjituser/HelloReact')} >
              here.
@@ -49,8 +49,8 @@ class GidjitBasicExample extends Component {
 }
 const styles = StyleSheet.create({
   seperateInfo: {
-    width:280
-    textAlign: 'center';
+    width:280,
+    textAlign: 'center',
   },
   bigblack: {
     fontWeight: 'bold',
