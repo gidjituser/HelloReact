@@ -36,7 +36,7 @@ class GidjitBasicExample extends Component {
           be used. You can find an example where an existing project was forked and bundled so
           that it would work with Gidjit. It was not written by ourselves.
         </Text>
-        <Text style={{color: 'blue'}}>
+        <Text style={{color: 'blue'}}
           onPress={() => Linking.openURL('https://github.com/gidjituser/FinanceReactNative')}
           style={{width: 50, height: 50}}>
           FinanceReactNative

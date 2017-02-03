@@ -1628,9 +1628,9 @@ _react2.default.createElement(_reactNative.Text,{style:{width:250,height:150}},'
 
 
 
-_react2.default.createElement(_reactNative.Text,{style:{color:'blue'}},'onPress=',
-function(){return _reactNative.Linking.openURL('https://github.com/gidjituser/FinanceReactNative');},'style=',
-{width:50,height:50},'> FinanceReactNative'),
+_react2.default.createElement(_reactNative.Text,{style:{color:'blue'},
+onPress:function onPress(){return _reactNative.Linking.openURL('https://github.com/gidjituser/FinanceReactNative');},
+style:{width:50,height:50}},'FinanceReactNative'),
 
 
 _react2.default.createElement(_reactNative.Text,{style:{width:250,height:50}},'The functionality/features of React Native with Gidjit will improve dramatically over the next few months.')));
