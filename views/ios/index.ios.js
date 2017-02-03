@@ -3,6 +3,8 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
+  Image,
+  Linking,
   View
 } from 'react-native';
 
