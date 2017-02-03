@@ -1641,16 +1641,16 @@ _react2.default.createElement(_reactNative.Text,{style:{width:250}},'The functio
 
 var styles=_reactNative.StyleSheet.create({
 seperateInfo:{
-width:200},
+width:280},
 
 bigblack:{
 fontWeight:'bold',
-fontSize:26},
+fontSize:21},
 
 bigblue:{
 color:'blue',
 fontWeight:'bold',
-fontSize:21}});
+fontSize:17}});
 
 
 
