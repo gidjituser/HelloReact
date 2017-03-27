@@ -7,7 +7,7 @@ Supported operating system(s) are iOS 10.0+
 
 ## Introduction
 
-An App View (μApp) is like a micro or light weight application. Gidjit is great for launching these applications as it allows a user to quickly access it and add an unlimited amount.
+An App View (μApp) is like a micro or light weight application. Gidjit is great for launching these applications as it allows a user to quickly access them and add an unlimited amount.
 
 See the official [React Native website](https://facebook.github.io/react-native/) for an introduction to React Native.
 
