@@ -18,7 +18,9 @@ class GidjitBasicExample extends Component {
         justifyContent: 'space-around',
         alignItems: 'center',
       }}>
-        <Image  style={{width: 60, height: 60}} source={{ uri: 'http://is2.mzstatic.com/image/thumb/Purple91/v4/83/24/37/8324375c-eaa1-3306-ca66-d3a849133888/source/175x175bb.jpg' }} />
+        <Image  style={{width: 60, height: 60}} source={require('../../img/appIcon.png')} />
+        <Image style={{width: 50, height: 50}} source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}} />
+
         <Text style={[styles.bigblack, styles.seperateInfo]}>
           Very basic Gidjit React Native view
         </Text>
