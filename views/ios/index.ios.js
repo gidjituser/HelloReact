@@ -26,15 +26,15 @@ class GidjitBasicExample extends Component {
         </Text>
         <Text style={{width: 250}}>
           This example just uses components 'View' and 'Text', however most if not all React Native elements can
-          be used. You can find the source along with all the instructions to create and add your own React Native action
+          be used. You can find the source along with all the instructions to create, add, and easily share your own React Native App
           <Text style={styles.bigblue}
             onPress={() => Linking.openURL('https://github.com/gidjituser/HelloReact')} >
              here.
           </Text>
         </Text>
         <Text style={{width: 250}}>
-          You can find an example where an existing project was forked and bundled so
-          that it would work with Gidjit, to show how easy it is (It was not written by ourselves).
+          You can find an example where an existing RN project was forked from github and bundled so
+          that it would work with Gidjit (It was not written by ourselves).
         </Text>
         <Text style={[styles.bigblue, styles.seperateInfo]}
           onPress={() => Linking.openURL('https://github.com/gidjituser/FinanceReactNative')}>
