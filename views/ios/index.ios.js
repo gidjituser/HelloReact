@@ -28,7 +28,7 @@ class GidjitBasicExample extends Component {
         </Text>
         <Text style={[styles.textInfo, {width: 250}]}>
           This example just uses components 'View' and 'Text', however most if not all React Native elements can
-          be used. You can find the source along with all the instructions to create, add, and easily share your own React Native App 
+          be used. You can find the source along with all the instructions to create, add, and easily share your own React Native App   
           <Text style={styles.bigblue}
             onPress={() => Linking.openURL('https://github.com/gidjituser/HelloReact')} >
              here.
