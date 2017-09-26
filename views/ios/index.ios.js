@@ -18,15 +18,17 @@ class GidjitBasicExample extends Component {
         justifyContent: 'space-around',
         alignItems: 'center',
       }}>
+      {/*
         <Image  style={{width: 60, height: 60}} source={require('../../img/appIcon.png')} />
+        */}
         <Image style={{width: 50, height: 50}} source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}} />
 
         <Text style={[styles.bigblack, styles.seperateInfo]}>
           Very basic Gidjit React Native view
         </Text>
-        <Text style={{width: 250}}>
+        <Text style={[styles.textInfo, {width: 250}]}>
           This example just uses components 'View' and 'Text', however most if not all React Native elements can
-          be used. You can find the source along with all the instructions to create, add, and easily share your own React Native App
+          be used. You can find the source along with all the instructions to create, add, and easily share your own React Native App 
           <Text style={styles.bigblue}
             onPress={() => Linking.openURL('https://github.com/gidjituser/HelloReact')} >
              here.
@@ -42,7 +44,7 @@ class GidjitBasicExample extends Component {
           FinanceReactNative
         </Text>
         */}
-        <Text style={{width: 250}}>
+        <Text style={[styles.textInfo, {width: 250}]}>
           The functionality/features of React Native with Gidjit will improve during each release.
         </Text>
       </View>
@@ -56,7 +58,10 @@ const styles = StyleSheet.create({
   },
   bigblack: {
     fontWeight: 'bold',
-    fontSize: 21,
+    fontSize: 23,
+  },
+  textInfo: {
+    fontSize: 20,
   },
   bigblue: {
     color: 'blue',
