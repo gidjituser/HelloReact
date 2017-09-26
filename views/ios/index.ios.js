@@ -55,6 +55,8 @@ const styles = StyleSheet.create({
   seperateInfo: {
     width:280,
     textAlign: 'center',
+    fontWeight: 'bold',
+    fontSize: 23,
   },
   bigblack: {
     fontWeight: 'bold',
