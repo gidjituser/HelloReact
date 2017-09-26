@@ -32,6 +32,7 @@ class GidjitBasicExample extends Component {
              here.
           </Text>
         </Text>
+        {/*
         <Text style={{width: 250}}>
           You can find an example where an existing RN project was forked from github and bundled so
           that it would work with Gidjit (It was not written by ourselves).
@@ -40,9 +41,9 @@ class GidjitBasicExample extends Component {
           onPress={() => Linking.openURL('https://github.com/gidjituser/FinanceReactNative')}>
           FinanceReactNative
         </Text>
+        */}
         <Text style={{width: 250}}>
-          The functionality/features of React Native with Gidjit will improve
-          dramatically over the next few months.
+          The functionality/features of React Native with Gidjit will improve during each release.
         </Text>
       </View>
     );

@@ -15,11 +15,12 @@ See the official [React Native website](https://facebook.github.io/react-native/
 
 - Follow the [Getting Started guide](https://facebook.github.io/react-native/docs/getting-started.html) to install React Native and its dependencies.
 - Please use following version of react-native and react with npm.
-	* "react": "16.0.0-rc.3",
-    * "react-native": "0.48.0",
+	* "react": "16.0.0",
+    * "react-native": "0.48.4",
 - The following packages are included in the Gidjit and have been linked already
 	* "react-native-ble": "^1.0.7"
     * "react-native-vector-icons": "^2.1.0",
+    * "react-native-ble-plx": "^0.6.1",
 - The following fonts have been included for you
 	* Entypo.ttf
 	* EvilIcons.ttf
