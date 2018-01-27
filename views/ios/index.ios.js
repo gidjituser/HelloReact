@@ -8,6 +8,8 @@ import {
   View
 } from 'react-native';
 
+import { rnImage } from './resources'
+
 
 class GidjitBasicExample extends Component {
   render() {
@@ -21,7 +23,7 @@ class GidjitBasicExample extends Component {
       {/*
         <Image  style={{width: 60, height: 60}} source={require('../../img/appIcon.png')} />
         */}
-        <Image style={{width: 50, height: 50}} source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}} />
+        <Image style={{height: 100}} source={{uri: rnImage}} />
 
         <Text style={[styles.bigblack, styles.seperateInfo]}>
           Very basic Gidjit React Native view
