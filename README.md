@@ -53,8 +53,8 @@ See the official [React Native website](https://facebook.github.io/react-native/
 	- generate a bundle in the root of the directory called ***"main.ios.jsbundle"*** (for example [from the root of the directory] run: **react-native bundle --platform ios --dev false --entry-file views/ios/index.ios.js --bundle-output main.ios.jsbundle --assets-dest ./**)
 	- Optionally add an icon.png to the root of the directory preferably 120x120 px
 	- The name and version will be used from your package.json in Gidjit.
-	- Upload/push your repo to Github. Make sure you have an appropriate gitignore. You can use the one from this example as a good start.
-	- To summarize ensure you have to following in the root of your project directory and they are ***not*** in your .gitignore
+	- Upload/Push your repo to Github. Make sure you have an appropriate gitignore. You can use the one from this example as a good start.
+	- To summarize - ensure you have to following in the root of your project directory (and they are ***not*** in your .gitignore)
 
 		1. package.json
 		2. main.ios.jsbundle
@@ -68,7 +68,7 @@ See the official [React Native website](https://facebook.github.io/react-native/
 	- Select **"All Other Actions"**
 	- From the available action list select **"React Native µApp"**
 	- Press **"Select Github Zip"** and search for your repository in the WebView. Example enter ***'user:Your Github user name'*** in the search field. You can also use other Github advanced search features to find your repo.
-	- Select your repo once you have found it. When a zipped bundle has been detected, a blue button will appear in the bottom right. Press it to confirm (Please note that Github will automatically generate this zipped bundle). Gidjit will extract the required files from the zip. They will have the following structure/files. ***_Project.zip -> RepoName-branch -> [package.json, icon.png, main.ios.jsbundle, assets ....]_***. Alternatively if you do not want to use Github you can directly enter the URL of your bundle zipped in the text field below **"Select Github Zip"**. You will need to zip the bundle yourself and make sure it has the structure and files mentioned above.
+	- Select your repo once you have found it. When a zipped bundle has been detected, a blue button will appear in the bottom right. Press it to confirm (Please note that Github will automatically generate this zipped bundle). Gidjit will extract the required files from the zip. They will have the following structure/files. ***Project.zip -> RepoName-branch -> [package.json, icon.png, main.ios.jsbundle, assets ....]***. Alternatively if you do not want to use Github you can directly enter the URL of your bundle zipped in the text field below **"Select Github Zip"**. You will need to zip the bundle yourself and make sure it has the structure and files mentioned above.
 	- Once complete just press **"Done"** and your action is ready to go
 	- While viewing your RN app in Gidjit it can be updated by pressing the **info** (top-left) and selecting **"Update"**.  
 
