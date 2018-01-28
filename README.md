@@ -7,16 +7,17 @@ Supported operating system(s) are iOS 10.0+
 
 ## Introduction
 
-Gidjit is great for finding and launching apps/actions from your iDevice. The following guide will show you how to add and share your own React Native Apps/Actions within Gidjit. This current repo has a React Native bundled app that can be used as a demo from the Gidjit App.
+Gidjit is great for finding and launching apps/actions from your iDevice. The following guide will show you how to add and share your own React Native Apps/Actions within Gidjit. This current repo has a React Native bundled app that can be used as a demo from Gidjit. To run the demo
 
-* From the Home screen of Gidjit create a Panel if not done so
+* Install and Open Gidjit
+* From the Home screen of Gidjit create a Launcher Panel if not done so
 * Select the Panel from the Home screen to add the action
 * Press the button **"All Other Actions"** then scroll to and select **"React Native µApp"**
 * Press **"Select Github Zip URL"**
 * In the search field enter **"user:gidjituser"**  
 * Select **"gidjituser/HelloReact"**
 * You should now see this repo. Press the blue box in the bottom right to select the bundled zip.
-* Complete setting up the action and press Done.
+* Complete setting up the action and press **"Done"**.
 * You can now launch the React Native action from Gidjit
 
 See the official [React Native website](https://facebook.github.io/react-native/) for an introduction to React Native.
@@ -53,7 +54,7 @@ See the official [React Native website](https://facebook.github.io/react-native/
 	- Optionally add an icon.png to the root of the directory preferably 120x120 px
 	- The name and version will be used from your package.json in Gidjit.
 	- Upload/push your repo to Github. Make sure you have an appropriate gitignore. You can use the one from this example as a good start.
-	- To summarize ensure you have to following in the root of your project directory and none of these files are specified in your .gitignore
+	- To summarize ensure you have to following in the root of your project directory and they are ***not*** in your .gitignore
 
 		1. package.json
 		2. main.ios.jsbundle
@@ -65,11 +66,11 @@ See the official [React Native website](https://facebook.github.io/react-native/
 
 	- Select a Launcher Panel
 	- Select **"All Other Actions"**
-	- From the available action list select **"React Native Action View"**
+	- From the available action list select **"React Native µApp"**
 	- Press **"Select Github Zip"** and search for your repository in the WebView. Example enter ***'user:Your Github user name'*** in the search field. You can also use other Github advanced search features to find your repo.
-	- Select your repo once you have found it. When your zipped bundle has been detected, a blue button will appear in the bottom right. Press it to confirm (Please note that Github will automatically generate this zipped bundle). Gidjit will extract the required files from the zip. They should have the following structure/files. ***_Project.zip -> RepoName-branch -> [package.json, icon.png, main.ios.jsbundle, assets ....]_***. Alternatively if you do not want to use Github you can directly enter the URL of your bundle zipped in the text field below **"Select Github Zip"**. You will need to zip the bundle yourself and make sure it has the structure and files mentioned above.
+	- Select your repo once you have found it. When a zipped bundle has been detected, a blue button will appear in the bottom right. Press it to confirm (Please note that Github will automatically generate this zipped bundle). Gidjit will extract the required files from the zip. They will have the following structure/files. ***_Project.zip -> RepoName-branch -> [package.json, icon.png, main.ios.jsbundle, assets ....]_***. Alternatively if you do not want to use Github you can directly enter the URL of your bundle zipped in the text field below **"Select Github Zip"**. You will need to zip the bundle yourself and make sure it has the structure and files mentioned above.
 	- Once complete just press **"Done"** and your action is ready to go
-	- When viewing your app it can be updated by pressing the **info** (top-left) and selecting **"Update"**.  
+	- While viewing your RN app in Gidjit it can be updated by pressing the **info** (top-left) and selecting **"Update"**.  
 
 
 ### Updates
