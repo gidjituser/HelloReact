@@ -27,21 +27,25 @@ export class GidjitBasicExample extends Component {
         <Text style={[styles.bigblack, styles.seperateInfo]}>
           Very basic Gidjit React Native view
         </Text>
-        <View style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-          <Text style={[styles.textInfo, {width: 250}]}>
+        <View style={{width: '90%', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+          <Text style={[styles.textInfo]}>
             This example just uses components 'View' and 'Text', however most if not all React Native elements can
             be used. You can find the source along with all the instructions to create, add, and easily share your own React Native App
             by clicking the link below.
           </Text>
-            <TouchableOpacity style={[{width: 130, height: 24, alignSelf:'center'}]} sonPress={() => Linking.openURL('https://github.com/gidjituser/HelloReact')}>
+            <TouchableOpacity style={[{width: 130, height: 24, alignSelf:'center'}]} onPress={() => Linking.openURL('https://github.com/gidjituser/HelloReact')}>
               <Text style={styles.bigblue}>
                 HelloReact
               </Text>
             </TouchableOpacity>
         </View>
-        <Text style={[styles.textInfo, {width: 250}]}>
-          The functionality/features of React Native with Gidjit will improve during each release.
-        </Text>
+        <View style={[{width: '90%'}]}>
+          <Text style={[styles.textInfo]}>
+            The functionality/features of React Native with Gidjit will improve during each release.
+          </Text>
+        </View>
+        <View style={[{height: 50}]}></View>
+
       </View>
     );
   }
