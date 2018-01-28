@@ -25,13 +25,13 @@ export class GidjitBasicExample extends Component {
         <Image style={{width: 100, height: 100}} source={{uri: rnImage}} />
 
         <Text style={[styles.bigblack, styles.seperateInfo]}>
-          Very basic Gidjit React Native view
+          Very basic Gidjit React Native Action
         </Text>
         <View style={{width: '90%', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
           <Text style={[styles.textInfo]}>
-            This example just uses components 'View' and 'Text', however most if not all React Native elements can
+            This example just uses components 'Image', 'View', and 'Text', however most if not all React Native elements can
             be used. You can find the source along with all the instructions to create, add, and easily share your own React Native App
-            by clicking the link below.
+            by clicking the link below and following the README.
           </Text>
             <TouchableOpacity style={[{width: 130, height: 24, alignSelf:'center'}]} onPress={() => Linking.openURL('https://github.com/gidjituser/HelloReact')}>
               <Text style={styles.bigblue}>
