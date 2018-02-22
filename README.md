@@ -27,7 +27,7 @@ See the official [React Native website](https://facebook.github.io/react-native/
 - Follow the [Getting Started guide](https://facebook.github.io/react-native/docs/getting-started.html) to install React Native and its dependencies.
 - The following are the recommended versions of react-native and react to use in your app.
   * "react": "16.2.0",
-  * "react-native": "0.53.0",
+  * "react-native": "0.53.3",
 - The following packages are included in the Gidjit and have been linked already
     * "react-native-ble": "^1.0.7"
     * "react-native-vector-icons": "^4.5.0",
