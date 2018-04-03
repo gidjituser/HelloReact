@@ -50,7 +50,7 @@ See the official [React Native website](https://facebook.github.io/react-native/
 * Build/Config Project
 
 	- create your project and make sure to run npm install before next step as packages are bundled
-	- generate a bundle in the root of the directory called ***"main.ios.jsbundle"*** (for example [from the root of the directory] run: **react-native bundle --platform ios --dev false --entry-file views/ios/index.ios.js --bundle-output main.ios.jsbundle --assets-dest ./**)
+	- generate a bundle in the root of the directory called **"main.ios.jsbundle"** (for example [from the root of the directory] run: **react-native bundle --platform ios --dev false --entry-file views/ios/index.ios.js --bundle-output main.ios.jsbundle --assets-dest ./**)
 	- Optionally add an icon.png to the root of the directory preferably 120x120 px
 	- The name and version will be used from your package.json in Gidjit.
 	- Upload/Push your repo to Github. Make sure you have an appropriate gitignore. You can use the one from this example as a good start.
