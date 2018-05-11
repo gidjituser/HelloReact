@@ -59,3 +59,7 @@ node_modules
 /ReactAndroid/src/androidTest/assets/AndroidTestBundle.js
 *.js.meta
 
+*.swp
+*.swo
+*~
+
