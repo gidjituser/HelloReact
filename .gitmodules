@@ -1,0 +1,3 @@
+[submodule "react-native-gidjit"]
+	path = react-native-gidjit
+	url = git@github.com:gidjituser/react-native-gidjit.git

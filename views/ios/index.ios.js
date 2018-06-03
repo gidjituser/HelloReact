@@ -10,13 +10,11 @@ import {
   View
 } from 'react-native';
 
-import { rnImage } from './resources'
-var iconSource = require('../../img/appIcon.png')
+var iconSource = require('../../img/gidjitAppIcon.png')
 
 
 export class GidjitBasicExample extends Component {
   render() {
-        // <Image style={{width: 100, height: 100}} source={{uri: rnImage}} />
     return (
       <View style={{
         flex: 1,
